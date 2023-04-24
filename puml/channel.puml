@@ -1,0 +1,12 @@
+@startuml
+left to right direction
+agent a
+agent b
+agent c
+agent d
+agent e
+agent f
+a -0- b
+c -0- d : > R
+e -0-> f
+@enduml

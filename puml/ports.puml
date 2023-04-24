@@ -1,0 +1,8 @@
+@startuml
+left to right direction
+interface m
+component x {
+    port " " as y
+}
+m -- y
+@enduml

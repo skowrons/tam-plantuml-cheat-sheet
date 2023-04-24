@@ -1,0 +1,4 @@
+@startuml
+component Component
+[ShortHandComponent]
+@enduml

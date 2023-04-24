@@ -1,0 +1,8 @@
+@startuml
+left to right direction
+agent a
+agent b
+
+a ..> b : << create >>
+
+@enduml

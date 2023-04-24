@@ -1,0 +1,6 @@
+@startuml
+left to right direction
+agent a
+agent b
+a -0)- b
+@enduml

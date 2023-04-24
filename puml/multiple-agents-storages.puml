@@ -1,0 +1,10 @@
+@startuml
+collections agents
+collections nested [
+    {{
+        storage "Storage 1" as store1
+        storage "Storage n" as storen
+        store1 .. storen
+    }}
+]
+@enduml

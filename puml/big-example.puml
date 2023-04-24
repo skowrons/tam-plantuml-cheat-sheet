@@ -1,0 +1,19 @@
+@startuml
+collections Users as users
+collections "Web Browsers" as browsers
+
+rectangle "HTTP" #line.dashed {
+    agent "Web Server" as server
+    agent "Directory Agent" as dir
+    storage "Persistent Data" as store
+    storage "Static HTML Pages" as static
+}
+
+users -0- browsers
+browsers -0- server : R >
+server -0- dir : R >
+dir -->> store
+dir <<-- store
+dir -l->> static
+static -u->> server
+@enduml

@@ -1,0 +1,9 @@
+@startuml
+left to right direction
+agent a
+interface b
+agent c
+interface C1
+a --( b
+c --() C1
+@enduml

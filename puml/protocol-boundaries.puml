@@ -1,0 +1,9 @@
+@startuml
+agent a
+
+rectangle "Protocol Boundary" #line.dashed {
+    agent b
+}
+
+a -- b
+@enduml
